@@ -1,0 +1,31 @@
+.product-item {
+    overflow: hidden;
+    text-align: center;
+
+    &__img {
+        width: 75%;
+    }
+
+    &__title {
+        margin: 10px 0px;
+    }
+
+    &__button {
+        display: inline-block;
+        padding: 10px 36px;
+        background-color: #000;
+        border: 1px solid #000;
+        color: #fff;
+        border: none;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin: 10px 0px;
+        font-weight: bold;
+
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #000;
+        }
+    }
+}

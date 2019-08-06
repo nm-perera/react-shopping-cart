@@ -1,0 +1,32 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+@media (max-width: 480px) {
+    .product-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .header {
+        padding: 25px;
+
+        a {
+            font-size: 34px;
+        }
+
+        .cart_item_count {
+            font-size: 30px;
+            padding: 6px 15px;
+        }
+    }
+}
